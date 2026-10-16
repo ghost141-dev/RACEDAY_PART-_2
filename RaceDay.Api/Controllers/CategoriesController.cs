@@ -74,7 +74,7 @@ public class CategoriesController : ApiControllerBase
         return Created($"/api/events/{eventId}/categories", category.ToResponse());
     }
 
-    /// <summary>Updates an existing category on an event the Organiser owns.</summary>
+    //Updates an existing category on an event the Organiser owns.
     /// <param name="id">The category ID.</param>
     /// <param name="request">name, minAge, maxAge, distanceKm.</param>
     /// <response code="200">Updated category.</response>
@@ -105,7 +105,7 @@ public class CategoriesController : ApiControllerBase
         return Ok(category.ToResponse());
     }
 
-    /// <summary>Removes a category from an event the Organiser owns.</summary>
+    /// <summary>Removes a category from an event the Organiser owns.
     /// <param name="id">The category ID.</param>
     /// <response code="204">Category deleted.</response>
     /// <response code="403">Not the owning Organiser.</response>
