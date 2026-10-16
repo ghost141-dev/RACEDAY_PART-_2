@@ -105,7 +105,7 @@ public class CategoriesController : ApiControllerBase
         return Ok(category.ToResponse());
     }
 
-    /// <summary>Removes a category from an event the Organiser owns.
+    //Removes a category from an event the Organiser owns.
     /// <param name="id">The category ID.</param>
     /// <response code="204">Category deleted.</response>
     /// <response code="403">Not the owning Organiser.</response>
