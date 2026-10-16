@@ -7,10 +7,10 @@ namespace RaceDay.Api.Controllers;
 [Produces("application/json")]
 public abstract class ApiControllerBase : ControllerBase
 {
-    // logged-in user's ID from the session (0 if no session)
+    /// <summary>The logged-in user's ID from the session (0 if no session).</summary>
     protected int CurrentUserId => HttpContext.Session.GetInt32(SessionKeys.UserId) ?? 0;
 
-    //The logged-in user's role from the session
+    /// <summary>The logged-in user's role from the session.</summary>
     protected string? CurrentRole => HttpContext.Session.GetString(SessionKeys.Role);
 
     protected IActionResult Fail(int statusCode, string detail) =>
