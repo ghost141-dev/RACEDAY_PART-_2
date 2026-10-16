@@ -1,6 +1,6 @@
 namespace RaceDay.Api.Models;
 
-//Maps to the Results table. One-to-one with Enrolment.
+/// <summary>Maps to the Results table. One-to-one with Enrolment.</summary>
 public class RaceResult
 {
     public int ResultId { get; set; }
