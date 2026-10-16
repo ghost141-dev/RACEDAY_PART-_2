@@ -97,7 +97,7 @@ They cover registration, login/logout, hashing, event management, role rejection
 
 
 ## Video
-> TODO: add the unlisted YouTube link here.
+https://www.youtube.com/@Amosghost
 
 ## AI usage disclosure
 > TODO: state honestly which parts of this project you used AI tools for (e.g. planning, code generation, proofreading),
