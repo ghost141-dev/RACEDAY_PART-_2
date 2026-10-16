@@ -95,7 +95,7 @@ public class AuthController : ApiControllerBase
         return Ok(user.ToResponse());
     }
 
-    //>Ends the current user's session.
+    /// <summary>Ends the current user's session.</summary>
     /// <response code="200">Session ended.</response>
     /// <response code="401">No active session.</response>
     [HttpPost("logout")]
