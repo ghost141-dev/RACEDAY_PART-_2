@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace RaceDay.Api.Auth;
 
-/// <summary>
-/// Protects an endpoint using the server-side session created at login.
-/// No session -> 401 Unauthorized. Wrong role -> 403 Forbidden.
-/// Use [SessionAuthorize] for "any logged-in user" or [SessionAuthorize(Roles.Organiser)] for a specific role.
-/// </summary>
+
+// Protects an endpoint using the server-side session created at login.
+// No session -> 401 Unauthorized. Wrong role -> 403 Forbidden.
+// Use [SessionAuthorize] for "any logged-in user" or [SessionAuthorize(Roles.Organiser)] for a specific role.
+
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false)]
 public class SessionAuthorizeAttribute : Attribute, IAuthorizationFilter
 {
