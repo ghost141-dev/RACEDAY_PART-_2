@@ -109,8 +109,7 @@ They cover registration, login/logout, hashing, event management, role rejection
 ## Video
 
 Unlisted YouTube walkthrough of the running API, code structure, endpoints, authentication, Swagger and unit tests:
-
-**REPLACE THIS LINE WITH YOUR UNLISTED VIDEO LINK (https://www.youtube.com/watch?v=...)**
+https://www.youtube.com/@Amosghost
 
 ## AI usage disclosure
 
