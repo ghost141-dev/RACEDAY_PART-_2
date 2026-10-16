@@ -1,6 +1,6 @@
 namespace RaceDay.Api.Models;
 
-//Maps to the Routes table (named EventRoute to avoid clashing with routing types).
+/// <summary>Maps to the Routes table (named EventRoute to avoid clashing with routing types).</summary>
 public class EventRoute
 {
     public int RouteId { get; set; }
