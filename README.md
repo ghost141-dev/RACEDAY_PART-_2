@@ -93,11 +93,19 @@ They cover registration, login/logout, hashing, event management, role rejection
 ## CI/CD
 `.github/workflows/part2-api.yml` restores, builds and runs all tests on every push.
 
-> TODO: add the green-build screenshot here.
+<img width="1503" height="315" alt="Screenshot 2026-10-16 210943" src="https://github.com/user-attachments/assets/1a9940e2-25dc-4d53-a720-c2e54b3c0fa0" />
+
 
 ## Video
-> TODO: add the unlisted YouTube link here.
+https://www.youtube.com/@Amosghost
 
 ## AI usage disclosure
-> TODO: state honestly which parts of this project you used AI tools for (e.g. planning, code generation, proofreading),
-> as required by the assignment instructions.
+## AI usage disclosure
+
+I used Claude (Anthropic) as a review and learning tool on this project. I asked it to
+review my Part 2 work against the marking rubric, identify what was missing or
+incorrect (for example the CI/CD workflow setup, Swagger documentation, EF Core
+migrations and README requirements), and explain how to resolve each issue. It also
+helped me work out which additional classes I still needed to create, and guided me
+through the work in Visual Studio. I used its explanations to understand the problems
+and applied the changes myself.
