@@ -20,10 +20,11 @@ public class AuthController : ApiControllerBase
         _config = config;
     }
 
-   //Creates a new user account as an Organiser or a Participant.
-    
-    // Registering as an Organiser also requires the secret organiserCode so that nobody can simply
-    // choose the Organiser role. The password is hashed with BCrypt and never returned.
+    /// <summary>Creates a new user account as an Organiser or a Participant.</summary>
+    /// <remarks>
+    /// Registering as an Organiser also requires the secret organiserCode so that nobody can simply
+    /// choose the Organiser role. The password is hashed with BCrypt and never returned.
+    /// </remarks>
     /// <param name="request">fullName, email, password, role, phoneNumber and (Organisers only) organiserCode.</param>
     /// <response code="201">User created. The password is never returned.</response>
     /// <response code="400">Validation failed (e.g. invalid email, short password, unknown role).</response>
