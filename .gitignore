@@ -1,0 +1,6 @@
+bin/
+obj/
+.vs/
+*.user
+RaceDay.Api/wwwroot/uploads/*
+!RaceDay.Api/wwwroot/uploads/.gitkeep
