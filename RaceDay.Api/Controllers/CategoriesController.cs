@@ -17,7 +17,7 @@ public class CategoriesController : ApiControllerBase
         _db = db;
     }
 
-    /// <summary>Lists all categories available for a specific event.</summary>
+    //Lists all categories available for a specific event.
     /// <param name="eventId">The event ID.</param>
     /// <response code="200">Array of categories.</response>
     /// <response code="404">Event does not exist.</response>
@@ -37,7 +37,7 @@ public class CategoriesController : ApiControllerBase
         return Ok(categories.Select(c => c.ToResponse()));
     }
 
-    /// <summary>Adds an age or distance category to an event the Organiser owns.</summary>
+    //Adds an age or distance category to an event the Organiser owns.
     /// <param name="eventId">The event ID.</param>
     /// <param name="request">name, minAge, maxAge, distanceKm.</param>
     /// <response code="201">New category.</response>
