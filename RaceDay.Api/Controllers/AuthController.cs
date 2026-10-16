@@ -74,7 +74,7 @@ public class AuthController : ApiControllerBase
         return Created("/api/profile", user.ToResponse());
     }
 
-    //Authenticates a user and starts a session storing their user ID and role.
+    /// <summary>Authenticates a user and starts a session storing their user ID and role.</summary>
     /// <param name="request">email and password.</param>
     /// <response code="200">Session started. Returns basic user info and role.</response>
     /// <response code="401">Invalid email or password.</response>
