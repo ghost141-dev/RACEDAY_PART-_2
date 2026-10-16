@@ -1,8 +1,8 @@
 namespace RaceDay.Api.Models;
 
-
-// Maps to the Users table. Named AppUser (not User) so it does not clash with ControllerBase.User.
-
+/// <summary>
+/// Maps to the Users table. Named AppUser (not User) so it does not clash with ControllerBase.User.
+/// </summary>
 public class AppUser
 {
     public int UserId { get; set; }
