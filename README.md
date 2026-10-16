@@ -93,7 +93,8 @@ They cover registration, login/logout, hashing, event management, role rejection
 ## CI/CD
 `.github/workflows/part2-api.yml` restores, builds and runs all tests on every push.
 
-> TODO: add the green-build screenshot here.
+<img width="1503" height="315" alt="Screenshot 2026-10-16 210943" src="https://github.com/user-attachments/assets/1a9940e2-25dc-4d53-a720-c2e54b3c0fa0" />
+
 
 ## Video
 > TODO: add the unlisted YouTube link here.
